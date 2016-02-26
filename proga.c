@@ -3,18 +3,22 @@
 
 int main()
 {
-    int a = 0;
-    int b = 0;
-    int c = 0;
-    int x = 0;
+    double a = 0;
+    double b = 0;
+    double c = 0;
+    double x1 = 0;
+    double x2 = 0;
+	double d = 0;
     printf(" a*x^2 + b*x + c = 0\n ");
     printf("input a =\n ");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("input b =\n ");
-    scanf("%d",&b );
+    scanf("%f",&b );
     printf("input c =\n ");
-    scanf("%d",&c);
-    printf("(%d)*x^2 + (%d)*x + (%d) = 0 ",a,b,c);
+    scanf("%f",&c);
+    printf("(%f)*x^2 + (%f)*x + (%f) = 0 ",a,b,c);
+    
+    
     
     return 0;
     
