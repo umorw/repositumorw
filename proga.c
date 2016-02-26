@@ -23,7 +23,7 @@ int main()
     printf("input c =\n ");
     	scanf("%f",&c);
 
-    printf("(%.2f)*x^2 + (%.2f)*x + (%.2f) = 0 ",a,b,c);
+    printf("(%.2f)*x^2 + (%.2f)*x + (%.2f) = 0 \n",a,b,c);
 	
 	if( a == 0 ){
 		printf(" the equation is not square\n ");	
@@ -38,6 +38,7 @@ int main()
 			printf(" D=0, one root of equation: %.2f\n ", x1);
 		}
 		if(d > 0){
+			printf(" D = %.2f\n ",d);
 			d = sqrt(d);
 			a = 2*a;
 			x1 = (-b-d)/a;
