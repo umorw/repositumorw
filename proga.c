@@ -14,15 +14,15 @@ int main()
 	printf( " a*x^2 + b*x + c = 0\n " );
 
 	printf( " input a =\n " );
-		scanf( "%f", &a );
+	scanf( "%f", &a );
 
 	printf( " input b =\n " );
-		scanf( "%f", &b );
+	scanf( "%f", &b );
 
 	printf( " input c =\n " );
-		scanf( "%f", &c );
+	scanf( "%f", &c );
 
-	printf( "(%.2f)*x^2 + (%.2f)*x + (%.2f) = 0 \n",a,b,c );
+	printf( "(%.2f)*x^2 + (%.2f)*x + (%.2f) = 0 \n", a, b, c );
 
 	if( a == 0 ){
 		printf( " the equation is not square\n " );
