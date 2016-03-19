@@ -6,3 +6,7 @@ proga.o: proga.c
 	
 function.o: function.c
 	gcc -c function.c 
+	
+.PHONY: clean
+clean:
+	rm -f proga *.o 
